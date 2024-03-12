@@ -19,6 +19,6 @@ public class CydeoApp {
 
         Integer in = container.getBean(Integer.class);
         System.out.println("in = " + in);
-
+        System.out.println("hello");
     }
 }
