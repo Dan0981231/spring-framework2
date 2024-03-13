@@ -11,6 +11,9 @@ public class CydeoApp {
         FullTimeMentor ft = container.getBean(FullTimeMentor.class);
         ft.createAccount();
 
+//        PartTimeMentor pt = container.getBean("p2", PartTimeMentor.class);
+//        pt.createAccount();
+
         PartTimeMentor pt = container.getBean(PartTimeMentor.class);
         pt.createAccount();
 
@@ -19,6 +22,13 @@ public class CydeoApp {
 
         Integer in = container.getBean(Integer.class);
         System.out.println("in = " + in);
-        System.out.println("hello");
+
+
+
+
     }
+
+
+
+
 }
