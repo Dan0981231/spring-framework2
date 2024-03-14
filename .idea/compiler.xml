@@ -8,11 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-02-Core-Wiring" />
+        <module name="Spring-04-Abstraction" />
+        <module name="Spring-01-Core-IoC" />
         <module name="Spring-03-Core-DI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Spring-01-Core-IoC" target="11" />
       <module name="Spring-Core-01" target="11" />
     </bytecodeTargetLevel>
   </component>
