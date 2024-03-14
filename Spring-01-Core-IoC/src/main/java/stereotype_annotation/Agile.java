@@ -1,5 +1,9 @@
 package stereotype_annotation;
 
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Agile {
 
     public void getTeachingHours(){
