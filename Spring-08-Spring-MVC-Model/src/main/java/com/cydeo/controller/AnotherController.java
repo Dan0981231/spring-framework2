@@ -8,11 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.ArrayList;
 import java.util.List;
-
 @Controller
-@RequestMapping("/mentor") // if we have 2 same classes, we have to specify on the class level
-public class MentorController {
-
+@RequestMapping("/another")
+public class AnotherController {
 
     @RequestMapping("/list")
     public String mentorPage(Model model) {
@@ -26,6 +24,6 @@ public class MentorController {
 
 
 
-    return "mentor/mentor-list";
+        return "mentor/mentor-list";
     }
 }
