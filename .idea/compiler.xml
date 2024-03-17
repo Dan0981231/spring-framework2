@@ -9,8 +9,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-06-SpringBoot-Demo" />
         <module name="Spring-07-Spring-MVC-Controller" />
+        <module name="Spring-review-project" />
         <module name="Spring-02-Core-Wiring" />
         <module name="Spring-08-Spring-MVC-Model" />
+        <module name="Spring-review-IoC" />
         <module name="Spring-04-Abstraction" />
         <module name="Spring-01-Core-IoC" />
         <module name="Spring-03-Core-DI" />
