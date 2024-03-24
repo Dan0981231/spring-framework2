@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Spring-06-SpringBoot-Demo" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring-09-Spring-Thymeleaf" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -19,11 +20,13 @@
         <option value="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-review-IoC/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-review-project/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Spring-Core-01/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-review-project/pom.xml" />
       </set>
     </option>
   </component>

@@ -11,6 +11,14 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
