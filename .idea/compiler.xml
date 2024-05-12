@@ -7,18 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spring-09-Spring-Thymeleaf" />
-        <module name="Spring-06-SpringBoot-Demo" />
-        <module name="Spring-11-ORM-Mapping-OneToOne" />
         <module name="Spring-07-Spring-MVC-Controller" />
         <module name="Spring-02-Core-Wiring" />
-        <module name="Spring-10-ORM-TableCreation" />
         <module name="Spring-08-Spring-MVC-Model" />
-        <module name="Spring-review-IoC" />
         <module name="Spring-04-Abstraction" />
         <module name="Spring-01-Core-IoC" />
         <module name="Spring-03-Core-DI" />
+        <module name="Spring-09-Spring-Thymeleaf" />
+        <module name="Spring-06-SpringBoot-Demo" />
+        <module name="Spring-11-ORM-Mapping-OneToOne" />
+        <module name="Spring-10-ORM-TableCreation" />
+        <module name="Spring-review-IoC" />
         <module name="Spring-05-Core-BeanScope" />
+        <module name="Spring-12-ORM-OneToMany-ManyToMany" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,6 +35,7 @@
       <module name="Spring-09-Spring-Thymeleaf" options="-parameters" />
       <module name="Spring-10-ORM-TableCreation" options="-parameters" />
       <module name="Spring-11-ORM-Mapping-OneToOne" options="-parameters" />
+      <module name="Spring-12-ORM-OneToMany-ManyToMany" options="-parameters" />
     </option>
   </component>
 </project>
