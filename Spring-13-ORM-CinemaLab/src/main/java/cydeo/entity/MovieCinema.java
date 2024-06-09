@@ -1,4 +1,4 @@
-package com.cydeo.entity;
+package cydeo.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -12,20 +12,17 @@ import java.time.LocalDateTime;
 @Entity
 @Data
 @NoArgsConstructor
-public class Ticket extends BaseEntity{
+public class MovieCinema extends BaseEntity {
 
-
-
-    private Integer seatNumber;
-    private Integer rowNumber;
     @Column(columnDefinition = "TIMESTAMP")
     private LocalDateTime dateTime;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    private MovieCinema movieCinema;
+    private Movie movie;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    private User userAccount;
+    private Cinema cinema;
+
 
 
 

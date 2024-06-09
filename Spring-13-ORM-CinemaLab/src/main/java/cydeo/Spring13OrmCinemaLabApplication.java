@@ -1,4 +1,4 @@
-package com.cydeo;
+package cydeo;
 
 import org.flywaydb.core.Flyway;
 import org.flywaydb.core.api.output.MigrateResult;
@@ -13,10 +13,9 @@ public class Spring13OrmCinemaLabApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(Spring13OrmCinemaLabApplication.class, args);
-
-
     }
-@Bean
+
+    @Bean
     public MigrateResult migrateResult(DataSource dataSource){
         return Flyway.configure().baselineOnMigrate(true).dataSource(dataSource).load().migrate();
     }

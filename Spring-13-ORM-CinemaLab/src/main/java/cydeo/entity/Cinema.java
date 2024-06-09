@@ -1,10 +1,12 @@
-package com.cydeo.entity;
+package cydeo.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.ManyToOne;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+
 
 @Entity
 @Data
@@ -16,6 +18,4 @@ public class Cinema extends BaseEntity {
 
     @ManyToOne(fetch = FetchType.LAZY)
     private Location location;
-
-
 }
