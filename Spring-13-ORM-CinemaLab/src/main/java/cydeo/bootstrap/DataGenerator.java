@@ -1,6 +1,6 @@
 package cydeo.bootstrap;
 
-import com.cydeo.repository.AccountRepository;
+import cydeo.repository.AccountRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
