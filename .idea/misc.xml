@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/Spring-06-SpringBoot-Demo" />
     <file type="web" url="file://$PROJECT_DIR$/Spring-09-Spring-Thymeleaf" />
     <file type="web" url="file://$PROJECT_DIR$/Spring-12-ORM-OneToMany-ManyToMany" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring-17-Rest-CondumingApis" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -29,6 +30,7 @@
         <option value="$PROJECT_DIR$/Spring-14-ORM-Queries/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-15-REST/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-16-REST-Jackson/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-17-Rest-ConsumingApis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
