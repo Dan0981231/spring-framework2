@@ -40,7 +40,7 @@ private final RestTemplate restTemplate;
         return restTemplate.getForObject(URL, User.class, id);
      }
 
-    @GetMapping("{/test}")
+    @GetMapping("/test")
     public ResponseEntity<Object> consumeFromDummyAPI(){
 
         HttpHeaders headers = new HttpHeaders();
