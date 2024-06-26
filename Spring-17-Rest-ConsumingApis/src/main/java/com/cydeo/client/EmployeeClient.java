@@ -1,6 +1,5 @@
 package com.cydeo.client;
 
-import com.cydeo.dto.Datum;
 import com.cydeo.dto.Employee;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
